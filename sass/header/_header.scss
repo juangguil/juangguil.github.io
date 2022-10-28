@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Poppins:wght@600;700;900&display=swap');
+
+
+
+.title{
+    font-family: var(--fuente-secundaria);
+    color: #ffff;
+    
+
+}
+
+    .container__header-title{
+        max-width: 70%;      
+        .container__title{
+        
+            #p-1{
+                margin: 0;
+                color: var(--verde-suave);
+                font-weight: 100;
+                font-family: var(--fuente-secundaria);
+            }
+            h1{
+                margin: 0;
+                font-weight: bolder;
+                color: var(--verde-suave);
+                font-size: 3.5em;
+                font-family: var(--fuente-principal);
+                span{
+                    color: var(--verde-itenso);
+                }
+            }
+            h2{
+                margin: 10px 0px;
+                font-weight: bolder;
+                color: #CDE6CB;
+                font-size: 2em;
+                font-weight: 600;
+                font-family: var(--fuente-secundaria);
+
+                span{
+                    color: var(--verde-itenso);
+                }
+            }
+            #p-2{
+                color: #C9D6C9;
+                font-size: 1.2em;
+                line-height: 25px;
+                font-family: var(--fuente-secundaria);
+            }
+            .info{
+                display: flex;
+                flex-direction: row;
+                margin: 50px 0px;
+                align-items: center;
+                column-gap: 10px;
+                hr{
+                    width: 50%;
+                    margin: 0;
+                    height: 5px;
+                    background-color: #DBDADA;
+                    border-radius: 20px;
+                }
+                .bx{
+                    color: #C9D6C9;
+                    font-size: 2em;
+                    cursor: pointer;
+                }
+            }
+        }
+    }

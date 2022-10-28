@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Poppins:wght@600;700;900&display=swap");
+.title {
+  font-family: var(--fuente-secundaria);
+  color: white;
+}
+
+.container__header-title {
+  max-width: 70%;
+}
+.container__header-title .container__title #p-1 {
+  margin: 0;
+  color: var(--verde-suave);
+  font-weight: 100;
+  font-family: var(--fuente-secundaria);
+}
+.container__header-title .container__title h1 {
+  margin: 0;
+  font-weight: bolder;
+  color: var(--verde-suave);
+  font-size: 3.5em;
+  font-family: var(--fuente-principal);
+}
+.container__header-title .container__title h1 span {
+  color: var(--verde-itenso);
+}
+.container__header-title .container__title h2 {
+  margin: 10px 0px;
+  font-weight: bolder;
+  color: #CDE6CB;
+  font-size: 2em;
+  font-weight: 600;
+  font-family: var(--fuente-secundaria);
+}
+.container__header-title .container__title h2 span {
+  color: var(--verde-itenso);
+}
+.container__header-title .container__title #p-2 {
+  color: #C9D6C9;
+  font-size: 1.2em;
+  line-height: 25px;
+  font-family: var(--fuente-secundaria);
+}
+.container__header-title .container__title .info {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px;
+  align-items: center;
+  column-gap: 10px;
+}
+.container__header-title .container__title .info hr {
+  width: 50%;
+  margin: 0;
+  height: 5px;
+  background-color: #DBDADA;
+  border-radius: 20px;
+}
+.container__header-title .container__title .info .bx {
+  color: #C9D6C9;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+/* ========= GOOGLE FONTS ========= */
+/* ========= VARIABLE CSS ========= */
+:root {
+  --fuente-principal: "Poppins", sans-serif;
+  --fuente-secundaria: "Asap", sans-serif;
+  --margen: 0px 100px;
+  --margen-mobile: 0px 50px;
+  --margen-mobile2: 0px 20px;
+  --verde-suave: hsl(116, 35%, 85%);
+  --verde-itenso: hsl(116, 57%, 62%);
+  --gris-suave: hsl(0, 1%, 86%);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 12%);
+}
+
+header {
+  background-image: url(../../img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0) 50%, hsl(0deg, 0%, 12%));
+}
+
+.medida-section {
+  margin-bottom: 6em;
+}
+
+.title-about {
+  font-family: var(--fuente-principal);
+  color: #CDE6CB;
+}
+
+.parrafo-about {
+  font-size: 1.2em;
+  color: #C9D6C9;
+  font-family: var(--fuente-secundaria);
+}
+
+.texto-about {
+  color: #DBDADA;
+  font-family: var(--fuente-secundaria);
+  font-size: 1.2em;
+}
+
+.titulo-study {
+  font-family: var(--fuente-principal);
+  color: white;
+  font-weight: 600;
+}
+
+.parrafo-study {
+  color: #DBDADA;
+  font-family: var(--fuente-secundaria);
+}
+
+.contenedor-stack {
+  transition: 0.3s ease;
+  background-color: white;
+}
+
+.contenedor-stack:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */

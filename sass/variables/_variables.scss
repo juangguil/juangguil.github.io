@@ -1,0 +1,22 @@
+/* ========= GOOGLE FONTS ========= */
+
+
+
+
+/* ========= VARIABLE CSS ========= */
+//Pseudo-clase / global
+:root{
+    // fuentes
+    --fuente-principal: 'Poppins', sans-serif;
+    --fuente-secundaria:  'Asap', sans-serif;
+    // margenes 
+    --margen: 0px 100px;
+
+    //margenes mobile
+    --margen-mobile: 0px 50px;
+    --margen-mobile2: 0px 20px;
+    // Colores
+    --verde-suave: hsl(116, 35%, 85%);
+    --verde-itenso: hsl(116, 57%, 62%);
+    --gris-suave: hsl(0, 1%, 86%);
+}
